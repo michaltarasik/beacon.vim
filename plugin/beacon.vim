@@ -19,9 +19,9 @@ let g:beacon_loaded = 1
 
 " highlight used for floating window
 if has("nvim")
-    highlight BeaconDefault guibg=white ctermbg=15
+    highlight BeaconDefault guibg=red ctermbg=15
 else
-    highlight BeaconDefault guibg=silver ctermbg=7
+    highlight BeaconDefault guibg=red ctermbg=7
 endif
 
 
